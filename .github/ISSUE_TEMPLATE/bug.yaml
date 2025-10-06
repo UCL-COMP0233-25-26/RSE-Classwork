@@ -1,0 +1,25 @@
+---
+name: Bug within the course
+description: >-
+  Something is broken in the course.
+labels:
+  - "bug"
+title: "Bug: "
+body:
+  - id: guidance
+    type: markdown
+    attributes:
+      value: >-
+        ⚠️⚠️⚠️⚠️ <br>
+        This is only to be used when there's a bug in the course, not when answering a particular exercise.
+        Please, read well the instructions as to where you may need to create the issue. <br>
+        ⚠️⚠️⚠️⚠️
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: >-
+        Enter a brief description of the bug you've faced.
+    validations:
+      required: true
+---
