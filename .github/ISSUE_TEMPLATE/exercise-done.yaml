@@ -12,10 +12,10 @@ body:
       value: >-
         ⚠️⚠️⚠️⚠️ <br> <center><h4 style="text-align: center;">YOU DON'T WANT TO CREATE THIS NEW ISSUE</h4></center> <br/>⚠️⚠️⚠️⚠️<br/>
         You want to submit an answer to certain exercise. However, most likely you don't want to open this issue here, but under your repository.
-        Are you opening this issue in the UCL-COMP0233-25-26/RSE-Classwork repository? If that's the case, then you should stop now and open the issue under your userspace:
-        <YourUsername>/RSE-Classwork or the repository asked on the exercise.
+        Are you opening this issue in the `UCL-COMP0233-25-26/RSE-Classwork` repository? If that's the case, then you should stop now and open the issue under your userspace:
+        `<YourUsername>/RSE-Classwork` or the repository asked on the exercise.
         <br/>
-        If you've got this message, but you are indeed under your own organisation. Then go to your RSE-Classwork fork and delete the `.github` directory. Then try to open the issue again.
+        If you've got this message, but you are indeed under your own organisation. Then go to your `RSE-Classwork` fork and delete the `.github` directory. Then try to open the issue again.
   - id: description
     type: textarea
     attributes:
