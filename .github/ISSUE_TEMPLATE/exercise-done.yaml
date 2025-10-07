@@ -1,0 +1,107 @@
+---
+name: Class Exercise completed
+description: >-
+  I've finished some class exercise
+labels:
+  - "invalid"
+title: "🙅: You don't want to open an issue here"
+body:
+  - id: guidance
+    type: markdown
+    attributes:
+      value: >-
+        ⚠️⚠️⚠️⚠️ <br> <center><h4 style="text-align: center;">YOU DON'T WANT TO CREATE THIS NEW ISSUE</h4></center> <br/>⚠️⚠️⚠️⚠️<br/>
+        You want to submit an answer to certain exercise. However, most likely you don't want to open this issue here, but under your repository.
+        Are you opening this issue in the UCL-COMP0233-25-26/RSE-Classwork repository? If that's the case, then you should stop now and open the issue under your userspace:
+        <YourUsername>/RSE-Classwork or the repository asked on the exercise.
+        <br/>
+        If you've got this message, but you are indeed under your own organisation. Then go to your RSE-Classwork fork and delete the `.github` directory. Then try to open the issue again.
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: >-
+        You don't want to open an issue here.
+    validations:
+      required: true
+  - type: checkboxes
+    id: marks0
+    attributes:
+      label: check
+      description: By submitting this issue, I confirmed I'm sure that this is where I have to submit it.
+      options:
+        - label: I want to submit
+          required: true
+  - type: checkboxes
+    id: marks1
+    attributes:
+      label: 1 point deducted
+      description: I'm happy to be deducted one mark of my final grade if this not the right place.
+      options:
+        - label: One point deduction
+          required: true
+  - type: checkboxes
+    id: marks2
+    attributes:
+      label: 1 point deducted
+      description: I'm happy to be deducted another one mark of my final grade if this not the right place.
+      options:
+        - label: One point deduction
+          required: true
+  - type: checkboxes
+    id: marks3
+    attributes:
+      label: 1 point deducted
+      description: I'm happy to be deducted yet another one mark of my final grade if this not the right place.
+      options:
+        - label: One point deduction
+          required: true
+  - type: checkboxes
+    id: marks4
+    attributes:
+      label: 1 point deducted
+      description: I'm happy to be deducted one more mark of my final grade if this not the right place.
+      options:
+        - label: One point deduction
+          required: true
+  - type: checkboxes
+    id: marks5
+    attributes:
+      label: 1 point deducted
+      description: I'm happy to be deducted even another mark of my final grade if this not the right place.
+      options:
+        - label: One point deduction
+          required: true
+  - type: checkboxes
+    id: marks6
+    attributes:
+      label: 2x points deducted
+      description: I'm happy to be deducted double for all that I've been deducted already of my final grade if this not the right place.
+      options:
+        - label: Double deduction
+          required: true
+  - type: checkboxes
+    id: marks7
+    attributes:
+      label: 3x points deducted
+      description: I'm happy to be deducted triple of what's already deducted above of my final grade if this not the right place.
+      options:
+        - label: Three times deduction
+          required: true
+  - type: checkboxes
+    id: marks8
+    attributes:
+      label: 5x points deducted
+      description: I'm happy to be deducted five times of what's already been deducted above of my final grade if this not the right place.
+      options:
+        - label: Five times deduction
+          required: true
+  - type: checkboxes
+    id: marks9
+    attributes:
+      label: 20 points deducted
+      description: I'm happy to be deducted 20 more marks to the above of my final grade if this not the right place (to help you with the numbers, that would be -200 points).
+      options:
+        - label: twenty point deduction
+          required: true
+---
