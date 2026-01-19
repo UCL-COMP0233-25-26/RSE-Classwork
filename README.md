@@ -9,6 +9,7 @@ We will use this repository to follow up and review all the exercises done in cl
 - 📚 [course notes][rsd-notes] (📦 [repository][rsd-repo])
 - 📹 [Panopto channel][panopto]
 - 📆 [Office hours booking page][office-hours]
+-[Europe](./Europe/README.md)
 
 
 [rsd-notes]: https://github-pages.ucl.ac.uk/rsd-engineeringcourse/
